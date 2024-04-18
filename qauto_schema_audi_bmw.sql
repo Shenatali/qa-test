@@ -1,0 +1,1 @@
+SELECT carBrandId, COUNT(*) AS count_models FROM qauto_1.cars WHERE carBrandId IN (SELECT carBrandId FROM qauto_1.car_brands WHERE title IN ("Audi", "BMW")) GROUP BY carBrandId;

@@ -1,0 +1,1 @@
+SELECT car_models.title AS car_model, car_brands.title AS car_brand, COUNT(DISTINCT cars.userId) AS user_count FROM cars JOIN car_models ON cars.carModelId = car_models.id JOIN car_brands ON car_models.carBrandId = car_brands.id GROUP BY car_brands.title;
