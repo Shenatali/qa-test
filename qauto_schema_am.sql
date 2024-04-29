@@ -1,0 +1,1 @@
+SELECT  * FROM qauto_1.user_profiles WHERE name LIKE "am%";
