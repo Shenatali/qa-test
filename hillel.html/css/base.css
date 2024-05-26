@@ -1,0 +1,51 @@
+
+#some-id-1 {
+	color: yellow;
+	font-family: "Inter", serif;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 2px 2px 5px orangered;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	li
+}
+.title {
+	color: red;
+	font-family: "Inter", serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: left;
+	text-shadow: 2px 2px 5px gold;
+
+}
+.text {
+	color: cadetblue;
+	font-family: "Inter", serif;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.5;
+}
+#some-id-2 {
+	color: deepskyblue;
+}
+#some-id-3 {
+	color: slateblue;
+}
+#some-id-4 {
+	color: mediumblue;
+}
+#some-id-5 {
+	color: darkblue;
+}
+.list {
+	color: brown;
+	font-family: "Inter", serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 2;
+}
+.item {
+	color: coral;
+}
